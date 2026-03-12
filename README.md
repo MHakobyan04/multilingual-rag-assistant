@@ -46,9 +46,12 @@ streamlit run app.py
 
 ## Project Structure
 
+```text
+multilingual-rag-assistant/
 ├── app.py                # Main Streamlit Web Interface
 ├── requirements.txt      # Project Dependencies
 ├── README.md             # Project Documentation
+├── .gitignore            # Files to ignore in Git
 ├── src/
 │   ├── document_loader.py # Multi-file PDF processing & chunking
 │   ├── embeddings.py      # Multilingual vector model setup
