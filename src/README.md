@@ -46,6 +46,7 @@ streamlit run app.py
 
 ## Project Structure
 
+```text
 multilingual-rag-assistant/
 ├── app.py                # Main Streamlit Web Interface
 ├── requirements.txt      # Project Dependencies
