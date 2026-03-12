@@ -1,0 +1,19 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.venv/
+venv/
+env/
+.env
+
+# Project specific
+data/raw/*
+data/vectorstore/*
+!data/raw/.gitkeep
+!data/vectorstore/.gitkeep
+
+# Mac files
+.DS_Store
